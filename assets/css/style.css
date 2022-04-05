@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(212, 212, 212);
+    margin: 0;
+    padding-bottom: 30px;
+    font-family: 'gadugi';
+}
+
+.maintop{
+    width: 100%;
+    height: 200px;
+}
+
+.menu{
+    float:right;
+    width: 50%;
+    height: 200px;
+}
+
+.logotop{
+    float:left;
+    width: 50%;
+    height: 200px;
+    font-size: 30px;
+}
+
+.logo{
+    width: 405px;
+    height: 100px;
+}
+
+.logo img{
+    width: 70px;
+    height: 70px;
+    float: right;
+    margin-top: 65px;
+}
+
+.logo h1{
+    margin-top: 60px;
+    margin-left: 100px;
+    float: left;
+    font-family: 'MV Boli';
+}
+
+.menu ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+.menu a{
+    text-decoration:overline;
+    color: black;
+}
+
+.menu a:hover{
+    color:white;
+}
+.menu li{
+    padding-right: 20px;
+    padding-left: 20px;
+    float: left;
+    height: 200px;
+    line-height: 200px;
+}
+
+.content{
+    width: 100%;
+    height: 700px;
+    margin:0;
+}
+
+.contentleft{
+    width: 50%;
+    height: 700px;
+    float: left;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contentright{
+    width: 50%;
+    height: 700px;
+    float: right;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contentright img{
+    border-radius: 25px;
+    border: 10px solid #333333;
+}
+
+.text{
+    width: 50%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.text h1{
+    margin:0;
+    font-size: 15px;
+    font-weight:bolder;
+}
+
+.text h2{
+    margin:0;
+    font-size: 40px;
+}
+
+.text h3{
+    margin:0;
+    font-size: 15px;
+    font-weight:lighter;
+}

@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(212, 212, 212);
+    margin: 0;
+    padding-bottom: 30px;
+    font-family: 'gadugi';
+}
+
+.content {
+    height: 800px;
+    width: 700px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 25px;
+    border: 10px solid #333333;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    padding-top: 130px;
+    padding-left: 50px;
+}
+
+img:hover{
+    color: white;
+}
